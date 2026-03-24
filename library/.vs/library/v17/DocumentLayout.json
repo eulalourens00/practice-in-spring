@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\practice-in-spring\\library\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|c:\\practice-in-spring\\library\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|c:\\practice-in-spring\\library\\library\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|solutionrelative:library\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|c:\\practice-in-spring\\library\\library\\databasehelper\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|solutionrelative:library\\databasehelper\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|c:\\practice-in-spring\\library\\library\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|solutionrelative:library\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|c:\\practice-in-spring\\library\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|c:\\practice-in-spring\\library\\library\\forms\\bookeditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|solutionrelative:library\\forms\\bookeditform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|c:\\practice-in-spring\\library\\library\\forms\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|solutionrelative:library\\forms\\adminmainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|c:\\practice-in-spring\\library\\library\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|solutionrelative:library\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|c:\\practice-in-spring\\library\\library\\forms\\usermainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C09743A8-E7A4-4AC2-9578-A327264B77BE}|library\\library.csproj|solutionrelative:library\\forms\\usermainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +46,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\practice-in-spring\\library\\library\\Program.cs",
               "RelativeDocumentMoniker": "library\\Program.cs",
               "ToolTip": "C:\\practice-in-spring\\library\\library\\Program.cs",
               "RelativeToolTip": "library\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwCcAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T09:36:14.282Z",
+              "WhenOpened": "2026-03-24T21:03:06.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DatabaseHelper.cs",
               "DocumentMoniker": "C:\\practice-in-spring\\library\\library\\DataBaseHelper\\DatabaseHelper.cs",
               "RelativeDocumentMoniker": "library\\DataBaseHelper\\DatabaseHelper.cs",
               "ToolTip": "C:\\practice-in-spring\\library\\library\\DataBaseHelper\\DatabaseHelper.cs",
               "RelativeToolTip": "library\\DataBaseHelper\\DatabaseHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAmwHoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T08:21:01.617Z",
+              "WhenOpened": "2026-03-24T18:38:06.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\practice-in-spring\\library\\library\\Models\\User.cs",
-              "RelativeDocumentMoniker": "library\\Models\\User.cs",
-              "ToolTip": "C:\\practice-in-spring\\library\\library\\Models\\User.cs",
-              "RelativeToolTip": "library\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "BookEditForm.cs",
+              "DocumentMoniker": "C:\\practice-in-spring\\library\\library\\Forms\\BookEditForm.cs",
+              "RelativeDocumentMoniker": "library\\Forms\\BookEditForm.cs",
+              "ToolTip": "C:\\practice-in-spring\\library\\library\\Forms\\BookEditForm.cs",
+              "RelativeToolTip": "library\\Forms\\BookEditForm.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T08:20:08.744Z",
+              "WhenOpened": "2026-03-24T18:35:09.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\practice-in-spring\\library\\library\\Forms\\Form1.cs",
-              "RelativeDocumentMoniker": "library\\Forms\\Form1.cs",
-              "ToolTip": "C:\\practice-in-spring\\library\\library\\Forms\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "library\\Forms\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "AdminMainForm.cs",
+              "DocumentMoniker": "C:\\practice-in-spring\\library\\library\\Forms\\AdminMainForm.cs",
+              "RelativeDocumentMoniker": "library\\Forms\\AdminMainForm.cs",
+              "ToolTip": "C:\\practice-in-spring\\library\\library\\Forms\\AdminMainForm.cs",
+              "RelativeToolTip": "library\\Forms\\AdminMainForm.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswDEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-24T08:13:33.367Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2026-03-24T18:30:52.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserMainForm.cs",
+              "DocumentMoniker": "C:\\practice-in-spring\\library\\library\\Forms\\UserMainForm.cs",
+              "RelativeDocumentMoniker": "library\\Forms\\UserMainForm.cs",
+              "ToolTip": "C:\\practice-in-spring\\library\\library\\Forms\\UserMainForm.cs",
+              "RelativeToolTip": "library\\Forms\\UserMainForm.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAA4wFkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T17:52:53.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\practice-in-spring\\library\\library\\Forms\\LoginForm.cs",
+              "RelativeDocumentMoniker": "library\\Forms\\LoginForm.cs",
+              "ToolTip": "C:\\practice-in-spring\\library\\library\\Forms\\LoginForm.cs",
+              "RelativeToolTip": "library\\Forms\\LoginForm.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T15:02:31.549Z",
+              "EditorCaption": ""
             }
           ]
         }

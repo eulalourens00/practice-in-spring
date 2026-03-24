@@ -1,4 +1,3 @@
-C:\practice-in-spring\library\library\obj\Debug\net8.0-windows\library.Form1.resources
 C:\practice-in-spring\library\library\obj\Debug\net8.0-windows\library.csproj.GenerateResource.cache
 C:\practice-in-spring\library\library\obj\Debug\net8.0-windows\library.GeneratedMSBuildEditorConfig.editorconfig
 C:\practice-in-spring\library\library\obj\Debug\net8.0-windows\library.AssemblyInfoInputs.cache
@@ -25,3 +24,9 @@ C:\practice-in-spring\library\library\obj\Debug\net8.0-windows\refint\library.dl
 C:\practice-in-spring\library\library\obj\Debug\net8.0-windows\library.pdb
 C:\practice-in-spring\library\library\obj\Debug\net8.0-windows\library.genruntimeconfig.cache
 C:\practice-in-spring\library\library\obj\Debug\net8.0-windows\ref\library.dll
+C:\practice-in-spring\library\library\obj\Debug\net8.0-windows\library.Forms.AdminMainForm.resources
+C:\practice-in-spring\library\library\obj\Debug\net8.0-windows\library.Forms.BookEditForm.resources
+C:\practice-in-spring\library\library\obj\Debug\net8.0-windows\library.Forms.LoginForm.resources
+C:\practice-in-spring\library\library\obj\Debug\net8.0-windows\library.Forms.UserMainForm.resources
+C:\practice-in-spring\library\library\obj\Debug\net8.0-windows\library.Properties.Resources.resources
+C:\practice-in-spring\library\library\obj\Debug\net8.0-windows\library.sourcelink.json

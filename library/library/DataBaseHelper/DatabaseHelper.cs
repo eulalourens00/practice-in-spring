@@ -14,18 +14,22 @@ namespace library.DataBaseHelper
     {
         private readonly string _connectionString;
 
-        public DatabaseHelper(string databasePath = "library.db")
+        public DatabaseHelper(string databasePath = @"C:\practice-in-spring\library\library\library.db")
         {
-            _connectionString = $"Data Source={databasePath};Version=3;";
+            string fullPath = Path.GetFullPath(databasePath);
+            _connectionString = $"Data Source={fullPath};Version=3;";
 
-            if (!File.Exists(databasePath))
+            if (!File.Exists(fullPath))
             {
-                CreateDatabase();
+                MessageBox.Show("Di nahuy", "Ok");
+                CreateDatabase(fullPath);
             }
         }
 
-        private void CreateDatabase()
+        private void CreateDatabase(string dbPath)
         {
+            SQLiteConnection.CreateFile(dbPath);
+
             using (var connection = new SQLiteConnection(_connectionString))
             {
                 connection.Open();
@@ -111,7 +115,7 @@ namespace library.DataBaseHelper
             using (var connection = new SQLiteConnection(_connectionString))
             {
                 connection.Open();
-                string query = "SELECT * FROM Books ORDER BY Title";
+                string query = "SELECT Id, Title, Author, Year, Quantity, AvaliableQuantity FROM Books ORDER BY Title";
                 using (var cmd = new SQLiteCommand(query, connection))
                 using (var reader = cmd.ExecuteReader())
                 {
@@ -119,12 +123,12 @@ namespace library.DataBaseHelper
                     {
                         books.Add(new Book
                         {
-                            Id = Convert.ToInt32(reader["Id"]),
-                            Title = reader["Title"].ToString(),
-                            Author = reader["Author"].ToString(),
-                            Year = reader["Year"] != DBNull.Value ? Convert.ToInt32(reader["Year"]) : 0,
-                            Quantity = Convert.ToInt32(reader["Quantity"]),
-                            AvailableQuantity = Convert.ToInt32(reader["AvailableQuantity"])
+                            Id = reader.GetInt32(0),
+                            Title = reader.GetString(1),
+                            Author = reader.GetString(2),
+                            Year = reader.IsDBNull(3) ? 0 : reader.GetInt32(3),
+                            Quantity = reader.GetInt32(4),
+                            AvailableQuantity = reader.GetInt32(5)
                         });
                     }
                 }
