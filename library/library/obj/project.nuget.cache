@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Tpfhs2RphPU=",
+  "success": true,
+  "projectFilePath": "C:\\practice-in-spring\\library\\library\\library.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alopo\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512",
+    "C:\\Users\\alopo\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.119\\stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512",
+    "C:\\Users\\alopo\\.nuget\\packages\\system.data.sqlite.core\\1.0.119\\system.data.sqlite.core.1.0.119.nupkg.sha512"
+  ],
+  "logs": []
+}
